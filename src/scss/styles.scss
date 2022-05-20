@@ -74,13 +74,20 @@ small{
 	border-radius: 10px;
 	box-shadow: 1px 1px 3px hsla(240,25%,40%,50%);
 	margin-bottom: 2rem;
-	background: white;
+	&__top{
+		background-size: cover;
+		background-repeat: no-repeat;
+		filter: grayscale(0%);
+		&--image{
+			display: block;
+			margin: 0 auto;
+		}
+
+	}
 	&--title{
 		margin-bottom: 0.5rem;
 		font-size: 3.2rem;
 	}
-	&--image{
-		display: block;
-		margin: 0 auto;
-	}
+	
 }
+
